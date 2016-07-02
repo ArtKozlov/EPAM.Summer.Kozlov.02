@@ -1,0 +1,7 @@
+D:\Epam\EPAM.Summer.Kozlov.02\LogicNewton\bin\Debug\LogicNewton.dll
+D:\Epam\EPAM.Summer.Kozlov.02\LogicNewton\bin\Debug\LogicNewton.pdb
+D:\Epam\EPAM.Summer.Kozlov.02\LogicNewton\obj\Debug\LogicNewton.csprojResolveAssemblyReference.cache
+D:\Epam\EPAM.Summer.Kozlov.02\LogicNewton\obj\Debug\LogicNewton.Properties.Resources.resources
+D:\Epam\EPAM.Summer.Kozlov.02\LogicNewton\obj\Debug\LogicNewton.csproj.GenerateResource.Cache
+D:\Epam\EPAM.Summer.Kozlov.02\LogicNewton\obj\Debug\LogicNewton.dll
+D:\Epam\EPAM.Summer.Kozlov.02\LogicNewton\obj\Debug\LogicNewton.pdb

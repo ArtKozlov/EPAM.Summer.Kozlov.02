@@ -1,0 +1,5 @@
+D:\Epam\EPAM.Summer.Kozlov.02\GCD\bin\Debug\GCD.dll
+D:\Epam\EPAM.Summer.Kozlov.02\GCD\bin\Debug\GCD.pdb
+D:\Epam\EPAM.Summer.Kozlov.02\GCD\obj\Debug\GCD.csprojResolveAssemblyReference.cache
+D:\Epam\EPAM.Summer.Kozlov.02\GCD\obj\Debug\GCD.dll
+D:\Epam\EPAM.Summer.Kozlov.02\GCD\obj\Debug\GCD.pdb

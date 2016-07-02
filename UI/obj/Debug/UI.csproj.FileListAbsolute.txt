@@ -1,0 +1,10 @@
+D:\Epam\EPAM.Summer.Kozlov.02\UI\bin\Debug\UI.exe.config
+D:\Epam\EPAM.Summer.Kozlov.02\UI\obj\Debug\UI.exe
+D:\Epam\EPAM.Summer.Kozlov.02\UI\obj\Debug\UI.pdb
+D:\Epam\EPAM.Summer.Kozlov.02\UI\bin\Debug\UI.exe
+D:\Epam\EPAM.Summer.Kozlov.02\UI\bin\Debug\UI.pdb
+D:\Epam\EPAM.Summer.Kozlov.02\UI\bin\Debug\GCD.dll
+D:\Epam\EPAM.Summer.Kozlov.02\UI\bin\Debug\LogicNewton.dll
+D:\Epam\EPAM.Summer.Kozlov.02\UI\bin\Debug\GCD.pdb
+D:\Epam\EPAM.Summer.Kozlov.02\UI\bin\Debug\LogicNewton.pdb
+D:\Epam\EPAM.Summer.Kozlov.02\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
