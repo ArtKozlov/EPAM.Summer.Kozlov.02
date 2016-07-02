@@ -7,6 +7,7 @@ namespace LogicNewton
 
         static double Sqrt()
         {
+            int x = 0;
             return 0;
         }
 
