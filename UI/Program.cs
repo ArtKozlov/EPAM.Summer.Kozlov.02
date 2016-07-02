@@ -8,13 +8,13 @@ namespace UI
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Нахождение корня методом Ньютона:");
+            Console.WriteLine(EuclideanAlgorithm.GetGCD(0, -1071));
+          /*  Console.WriteLine("Нахождение корня методом Ньютона:");
             double root = MathNewton.Sqrt(2, 2, 0.00000000001);
             Console.WriteLine(root);
             Console.WriteLine("Проверка:");
             Console.WriteLine(Math.Pow(root, 2));
-
+            */
             Console.ReadKey();
 
         }

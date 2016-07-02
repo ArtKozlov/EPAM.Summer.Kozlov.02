@@ -4,9 +4,14 @@ namespace GCD
 {
     public class EuclideanAlgorithm
     {
-        public static double GetGCD()
+        public static double GetGCD(int firstNumber, int secondNumber)
         {
-            return 0;
+
+            if (firstNumber%secondNumber != 0)
+            {
+                return GetGCD(secondNumber, firstNumber%secondNumber);
+            }
+            return Math.Abs(secondNumber);
         }
     }
 }
