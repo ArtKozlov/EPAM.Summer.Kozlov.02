@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.Serialization;
 
 namespace GCD
 {
@@ -16,6 +15,12 @@ namespace GCD
                 return GetGCD(secondNumber, firstNumber%secondNumber);
             }
             return Math.Abs(secondNumber);
+        }
+
+        public static int GetGCD(int firstNumber, int secondNumber, int thirdNumber)
+        {
+            firstNumber = GetGCD(firstNumber, secondNumber);
+            return GetGCD(firstNumber, thirdNumber);
         }
     }
 

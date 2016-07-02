@@ -9,12 +9,13 @@ namespace UI
         static void Main(string[] args)
         {
             Console.WriteLine(EuclideanAlgorithm.GetGCD(3, 17));
-          /*  Console.WriteLine("Нахождение корня методом Ньютона:");
-            double root = MathNewton.Sqrt(2, 2, 0.00000000001);
-            Console.WriteLine(root);
-            Console.WriteLine("Проверка:");
-            Console.WriteLine(Math.Pow(root, 2));
-            */
+            Console.WriteLine(EuclideanAlgorithm.GetGCD(78, 294,570));
+            /*  Console.WriteLine("Нахождение корня методом Ньютона:");
+              double root = MathNewton.Sqrt(2, 2, 0.00000000001);
+              Console.WriteLine(root);
+              Console.WriteLine("Проверка:");
+              Console.WriteLine(Math.Pow(root, 2));
+              */
             Console.ReadKey();
 
         }
