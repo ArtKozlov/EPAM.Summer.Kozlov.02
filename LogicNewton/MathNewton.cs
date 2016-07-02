@@ -9,12 +9,17 @@ namespace LogicNewton
         public static double Sqrt(double number, double power, double e)
         {
             double root0 = 0;
-            double root1 = power / number;
+            double root1 = 1;
 
-            while (Math.Abs(root1 - root0) > e)
+            if (number <= 0 && power%2!=0)
+            {
+                throw new Exception("Недопустимые аргументы!");
+            }
+
+            while (Math.Abs(root1 - root0) >= e)
             {
                 root0 = root1;
-                root1 = (1 / number) * ((number - 1) * root0 + power / Math.Pow(root0, number - 1));
+                root1 = (1 / power) * ((power - 1) * root0 + number / Math.Pow(root0, power - 1));
 
             }
 
