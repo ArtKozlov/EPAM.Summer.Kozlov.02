@@ -5,7 +5,7 @@ namespace GCD
 {
     public class EuclideanAlgorithm
     {
-        public static double GetGCD(int firstNumber, int secondNumber)
+        public static int GetGCD(int firstNumber, int secondNumber)
         {
             if (firstNumber == 0 || secondNumber == 0)
             {
@@ -18,4 +18,5 @@ namespace GCD
             return Math.Abs(secondNumber);
         }
     }
+
 }
