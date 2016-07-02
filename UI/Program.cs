@@ -19,10 +19,16 @@ namespace UI
               Console.WriteLine("Проверка:");
               Console.WriteLine(Math.Pow(root, 2));   */
 
-            SteinAlgorithm obj = new SteinAlgorithm();
+            EuclideanAlgorithm obj = new EuclideanAlgorithm();
             Console.WriteLine(obj.GetGCD(3, 17));
+            Console.WriteLine("Runtime in Ticks: " + obj.RunTime);
+            Console.WriteLine(obj.GetGCD(135, 972));
+            Console.WriteLine("Runtime in Ticks: " + obj.RunTime);
             Console.WriteLine(obj.GetGCD(78, 294, 570));
+            Console.WriteLine("Runtime in Ticks: " + obj.RunTime);
             Console.WriteLine(obj.GetGCD(78, 294, 570, 36));
+            Console.WriteLine("Runtime in Ticks: " + obj.RunTime);
+
 
             Console.ReadKey();
 
