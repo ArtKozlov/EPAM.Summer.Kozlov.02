@@ -4,7 +4,7 @@ namespace GCD
 {
     public class EuclideanAlgorithm
     {
-        static double GetGCD()
+        public static double GetGCD()
         {
             return 0;
         }
