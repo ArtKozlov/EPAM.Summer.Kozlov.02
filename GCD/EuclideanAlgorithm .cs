@@ -1,11 +1,28 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Threading;
 
 namespace GCD
 {
     public class EuclideanAlgorithm
     {
-        public static int GetGCD(int firstNumber, int secondNumber)
+      /*  Stopwatch stopWatch = new Stopwatch();
+        private string runTime = null;
+        public string RunTime
         {
+            get
+            {
+                return runTime;
+            }
+        }*/
+        public int GetGCD(int firstNumber, int secondNumber)
+        {
+            /*  if (stopWatch.ElapsedMilliseconds == 0)
+              {
+                  stopWatch.Start();
+              } */
+            if (firstNumber == secondNumber) return firstNumber;
+            if (firstNumber == 1 || secondNumber == 1) return 1;
             if (firstNumber == 0 || secondNumber == 0)
             {
                 throw new Exception("Недопустимые аргументы!");
@@ -14,16 +31,20 @@ namespace GCD
             {
                 return GetGCD(secondNumber, firstNumber%secondNumber);
             }
+
+           /* stopWatch.Stop();
+            runTime = "Runtime in Milliseconds: " + Convert.ToString(stopWatch.ElapsedMilliseconds);*/
+
             return Math.Abs(secondNumber);
         }
 
-        public static int GetGCD(int firstNumber, int secondNumber, int thirdNumber)
+        public int GetGCD(int firstNumber, int secondNumber, int thirdNumber)
         {
             firstNumber = GetGCD(firstNumber, secondNumber);
             return GetGCD(firstNumber, thirdNumber);
         }
 
-        public static int GetGCD(params int[]arrayOfNumbers)
+        public int GetGCD(params int[]arrayOfNumbers)
         {
             int result = arrayOfNumbers[0];
             for (int i = 0; i < arrayOfNumbers.Length - 1; i++)
