@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Serialization;
 
 namespace GCD
 {
@@ -6,8 +7,11 @@ namespace GCD
     {
         public static double GetGCD(int firstNumber, int secondNumber)
         {
-
-            if (firstNumber%secondNumber != 0)
+            if (firstNumber == 0 || secondNumber == 0)
+            {
+                throw new Exception("Недопустимые аргументы!");
+            }
+                if (firstNumber%secondNumber != 0)
             {
                 return GetGCD(secondNumber, firstNumber%secondNumber);
             }
