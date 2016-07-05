@@ -5,25 +5,31 @@ namespace LogicNewton
 {
     public class MathNewton
     {
-
-        public static double Sqrt(double number, double power, double e)
+        /// <summary>
+        /// This method is the root of a certain degree of number.
+        /// </summary>
+        /// <param name="number">the number of which is the degree of.</param>
+        /// <param name="power">root level.</param>
+        /// <param name="e">the accuracy of determining the number of.</param>
+        /// <returns>root of number./returns>
+        public static double Sqrt(double number, int power, double e)
         {
-            double root0 = 0;
-            double root1 = 1;
+            double rootPref = 0;
+            double rootNext = 1;
 
-            if (number <= 0 && power%2!=0)
+            if (number <= 0 && power%2!=0 || e <= 0 || e > 1)
             {
-                throw new Exception("Недопустимые аргументы!");
+                throw new Exception("Invalid function arguments!");
             }
 
-            while (Math.Abs(root1 - root0) >= e)
+            while (Math.Abs(rootNext - rootPref) >= e)
             {
-                root0 = root1;
-                root1 = (1 / power) * ((power - 1) * root0 + number / Math.Pow(root0, power - 1));
+                rootPref = rootNext;
+                rootNext = (1.0 / power) * ((power - 1) * rootPref + number / Math.Pow(rootPref, power - 1));
 
             }
 
-            return root1;
+            return rootNext;
         }
 
     }
